@@ -179,9 +179,21 @@ footer {
   color: tomato;
 }
 
-.social-icon  i {
-    font-size: 25px;
-    padding: 0 10px;
-    transition: .5s;
-    color: whitesmoke;
+.social-icon i {
+  font-size: 25px;
+  padding: 0 10px;
+  transition: 0.5s;
+  color: whitesmoke;
+}
+
+/* Mobile Resposive  */
+
+@media screen and (max-width: 668px) {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .menus {
+    display: none;
+  }
 }
