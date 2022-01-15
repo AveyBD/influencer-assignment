@@ -12,7 +12,7 @@ body {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    width: 960px;
+
 }
 
 /* Navbar */
@@ -27,17 +27,17 @@ body {
 .logo img {
     width: 250px;
     height: 90px;
+    margin-right: 500px;
 }
 
 .menu {
     position: relative;
-    right: -450px;
     list-style: none;
     display: flex;
 }
 
 .menu li {
-    margin: 0 6px;
+    margin: 0 5px;
 }
 .menu li a {
     display: inline-block;
@@ -56,3 +56,46 @@ body {
     transform: translateY(-2px);
 }
 
+/* Hero Section  */
+.hero {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hLeft {
+    padding-right: 200px;
+}
+
+.hLeft h1 {
+    font-size: 60px;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.hLeft > h1 > span{
+    color: tomato;
+}
+
+.hLeft p {
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+.hLeft a {
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 50px;
+    background-color: tomato;
+    transition: .3s;
+}
+
+.hLeft a:hover {
+    box-shadow: 5px 5px 10px tomato;
+}
+.hRight{
+width: 100%;
+}
+hr.solid {
+    border-top: 2px solid #bbb;
+  }
