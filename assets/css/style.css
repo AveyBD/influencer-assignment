@@ -155,3 +155,17 @@ hr.solid {
 .filled {
     color: tomato;
 }
+
+.shop-button a {
+    float: right;
+    margin-top: 20px;
+    margin-right: 70px;
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.shop-button a:hover {
+    transform: scale(1.1);
+}
