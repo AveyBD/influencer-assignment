@@ -117,3 +117,15 @@ hr.solid {
     transition: .3s;
     
 }
+
+
+/* Production SHowcase */
+.secTitle h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.secTitle h1 > span{
+    color:tomato;
+}
