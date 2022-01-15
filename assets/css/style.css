@@ -193,6 +193,11 @@ footer {
     width: 100%;
     margin: 0 auto;
   }
+  .logo img {
+    width: 250px;
+    height: 90px;
+    margin-right: 0px;
+  }
   .menus {
     display: none;
   }
@@ -205,6 +210,9 @@ footer {
   }
   .hRight img {
     width: 100%;
+  }
+  .hRight {
+    overflow: hidden;
   }
   /* logo mobile  */
   .logo-show {
@@ -222,5 +230,26 @@ footer {
   .shop-button a {
     float: none;
     padding: 20px;
+  }
+}
+
+/* Responsive Tablet  */
+@media screen and (min-width: 761px) and (max-width: 868px) {
+  .menus {
+    display: none;
+  }
+  .hRight {
+    overflow: hidden;
+  }
+  .logo-show {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-image-slice: 120 10;
+    grid-row-gap: 30px;
+  }
+
+  .collection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
