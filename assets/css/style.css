@@ -99,3 +99,19 @@ hr.solid {
   border-top: 2px solid #bbb;
   width: 70%;
 }
+
+.logo-show {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 20px;
+    padding: 30px 50px;
+}
+
+.logo-show img:hover {
+    transform: scale(1.2);
+}
+
+.logo-show img{
+    transition: .3s;
+    
+}
