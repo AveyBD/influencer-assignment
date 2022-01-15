@@ -1,101 +1,101 @@
 /* Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap");
 
 /* Utilies Style  */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
 /* Navbar */
 
 .navbar {
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    position: absolute;
-    top: 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  position: absolute;
+  top: 0;
 }
 
 .logo img {
-    width: 250px;
-    height: 90px;
-    margin-right: 500px;
+  width: 250px;
+  height: 90px;
+  margin-right: 500px;
 }
 
 .menu {
-    position: relative;
-    list-style: none;
-    display: flex;
+  position: relative;
+  list-style: none;
+  display: flex;
 }
 
 .menu li {
-    margin: 0 5px;
+  margin: 0 5px;
 }
 .menu li a {
-    display: inline-block;
-    text-decoration: none;
-    padding: 12px 12px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    color: Black;
-    transition: .3s all;
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  color: Black;
+  transition: 0.3s all;
 }
 .menu li.active a {
-    color: tomato;
+  color: tomato;
 }
 .menu li:hover a {
-    color: tomato;
-    transform: translateY(-2px);
+  color: tomato;
+  transform: translateY(-2px);
 }
 
 /* Hero Section  */
 .hero {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hLeft {
-    padding-right: 200px;
+  padding-right: 200px;
 }
 
 .hLeft h1 {
-    font-size: 60px;
-    line-height: 70px;
-    margin-bottom: 10px;
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 10px;
 }
-.hLeft > h1 > span{
-    color: tomato;
+.hLeft > h1 > span {
+  color: tomato;
 }
 
 .hLeft p {
-    line-height: 20px;
-    margin-bottom: 40px;
+  line-height: 20px;
+  margin-bottom: 40px;
 }
 
 .hLeft a {
-    text-decoration: none;
-    padding: 10px 30px;
-    color: white;
-    border-radius: 50px;
-    background-color: tomato;
-    transition: .3s;
+  text-decoration: none;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: tomato;
+  transition: 0.3s;
 }
 
 .hLeft a:hover {
-    box-shadow: 5px 5px 10px tomato;
+  box-shadow: 5px 5px 10px tomato;
 }
-.hRight{
-width: 100%;
+.hRight {
+  width: 100%;
 }
 hr.solid {
-    border-top: 2px solid #bbb;
-  }
+  border-top: 2px solid #bbb;
+  width: 70%;
+}
