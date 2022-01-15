@@ -8,3 +8,51 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 960px;
+}
+
+/* Navbar */
+
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position: absolute;
+    top: 0;
+}
+
+.logo img {
+    width: 250px;
+    height: 90px;
+}
+
+.menu {
+    position: relative;
+    right: -450px;
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 6px;
+}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 12px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: Black;
+    transition: .3s all;
+}
+.menu li.active a {
+    color: tomato;
+}
+.menu li:hover a {
+    color: tomato;
+    transform: translateY(-2px);
+}
+
