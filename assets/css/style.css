@@ -196,4 +196,33 @@ footer {
   .menus {
     display: none;
   }
+  .hero {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+  .hLeft {
+    padding-right: 0px;
+  }
+  .hRight img {
+    width: 100%;
+  }
+  /* logo mobile  */
+  .logo-show {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    border: none;
+  }
+  /* product  */
+  .collection {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    padding: 5px 15px;
 }
+/* shop button  */
+.shop-button a {
+    float: none;
+    padding: 20px;
+}
+}
+
+
