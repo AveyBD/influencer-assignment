@@ -200,10 +200,23 @@ hr.solid {
   text-align: center;
 }
 
+.service:hover{
+  box-shadow: 0px 0px 100px #0000003b;
+  animation-duration: 1s;
+  transition: 1s;
+}
+
 .sIcon {
   font-size: 50px;
   color: tomato;
 
+}
+
+.sIcon:hover{
+  animation-name: trust;
+  color: royalblue;
+  animation-duration: .5s;
+  transition: .5s;
 }
 
 /* footer  */
@@ -237,6 +250,7 @@ footer {
     width: 250px;
     height: 90px;
     margin-right: 0px;
+    margin-left: 20px;
   }
 
   .menus {
